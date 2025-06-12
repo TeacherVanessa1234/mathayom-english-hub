@@ -1,0 +1,13 @@
+[
+  {
+    "subject": "English",
+    "week": 1,
+    "words": []
+  },
+  {
+    "subject": "English",
+    "week": 2,
+    "words": []
+  }
+  // Add more entries for other subjects and weeks as needed
+]
