@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Vocabulary Review</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Vocabulary Review</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="vocab.html">Vocabulary Review</a>
+      <a href="games.html">Games</a>
+    </nav>
+  </header>
+  <main>
+    <label for="subject">Subject:</label>
+    <select id="subject">
+      <option>English</option>
+      <option>Grammar</option>
+      <option>Health</option>
+      <option>Math</option>
+      <option>Science</option>
+    </select>
+    <label for="week">Week:</label>
+    <select id="week">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+    </select>
+    <button onclick="loadVocab()">Load Vocabulary</button>
+    <ul id="vocab-list"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
